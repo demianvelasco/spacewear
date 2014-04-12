@@ -2,17 +2,21 @@ body
 {
 	text-align: center;
 	background-color: #EEE;
-	font-family: "Comic Sans MS";
+	font-family: "Default";
 }
 
 h1
 {
-	font-size: 1.5em;
+	margin: 50px 0;
+	font-size: 2em;
 	font-weight: bold;
 }
 
 button
 {
+	margin-top: 25px;
+	font-family: "Default";
 	border: 1px solid #AAA;
 	background-color: #CCC
+	outline: none;
 }

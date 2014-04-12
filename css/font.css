@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'Default';
+	src: url('../font/gandhi-sans/GandhiSans-Regular-webfont.eot');
+	src: url('../font/gandhi-sans/GandhiSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/gandhi-sans/GandhiSans-Regular-webfont.woff') format('woff'),
+         url('../font/gandhi-sans/GandhiSans-Regular-webfont.ttf') format('truetype'),
+         url('../font/gandhi-sans/GandhiSans-Regular-webfont.svg#gandhi_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Default Bold';
+    src: url('../font/gandhi-sans/GandhiSans-Bold-webfont.eot');
+    src: url('../font/gandhi-sans/GandhiSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/gandhi-sans/GandhiSans-Bold-webfont.woff') format('woff'),
+         url('../font/gandhi-sans/GandhiSans-Bold-webfont.ttf') format('truetype'),
+         url('../font/gandhi-sans/GandhiSans-Bold-webfont.svg#gandhi_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Default Bi';
+    src: url('../font/gandhi-sans/GandhiSans-BoldItalic-webfont.eot');
+    src: url('../font/gandhi-sans/GandhiSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/gandhi-sans/GandhiSans-BoldItalic-webfont.woff') format('woff'),
+         url('../font/gandhi-sans/GandhiSans-BoldItalic-webfont.ttf') format('truetype'),
+         url('../font/gandhi-sans/GandhiSans-BoldItalic-webfont.svg#gandhi_sansbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
