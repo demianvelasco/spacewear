@@ -1,7 +1,11 @@
 $(document).ready(function(){
+	
+	// jQuery code once document loaded
 
-	// blink led function
-	function led(){
-		alert('Led lit!');
-	}
 });
+
+// blink led function
+function myFunction()
+{
+	alert("LED lit.");
+}
