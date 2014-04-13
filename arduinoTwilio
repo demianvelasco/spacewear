@@ -1,0 +1,26 @@
+from flask import Flask
+from flask import request
+ 
+from twilio import twiml
+ 
+import serial
+ 
+# Declare and configure application
+app = Flask(__name__, static_url_path='/static')
+ 
+ 
+@app.route('/sms', methods=['POST'])
+def sms():
+    body = int((request.form['Body']))
+
+    if body == 1:
+    	body = 'I dont know what to eat'
+
+    response = twiml.Response()
+    response.message("%s" % body)
+    return str(response)
+ 
+if __name__ == "__main__":
+    port = 5000
+    app.debug = True
+    app.run(host="0.0.0.0", port=port)
