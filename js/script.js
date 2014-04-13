@@ -5,26 +5,22 @@ $(document).ready(function(){
 });
 
 // blink led function
-function myFunction()
+function blink()
 {
 	// create JSON object
-	json = JSON.stringify({ x: val});
+	blink = JSON.stringify({speed: val});
 
-	obj = JSON.parse(json);
-
-	alert(obj.x);
-	/*
 	// create request object
 	request = new XMLHttpRequestObject();
 
 	// open server file
-	////request.open("POST", "filename.py", true);
+	request.open("POST", "filename.py", true);
 
 	// set request header
 	request.setRequestHeader("Content-type", "application/json");
 
 	// send data
-	request.send(str_json);
+	request.send(blink);
 
 	// code to display response?*/
 }
